@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tribute Page | Che quevara</title>
+    <link rel="stylesheet" href="tribute.css" />
+</head>
+
+ <body id="main">
+    <div class='back-view'>
+      <div id='img-div' class='back-left'>
+        <img src='https://cdn3.whatculture.com/images/2015/07/MWnFiAaB.jpg'>
+        <img src='http://www.tothetick.com/wp-content/uploads/2013/10/revolutions.jpg' id='image'>
+        <p id='img-caption'>caption</p>
+      </div>
+      <div class='back-right'>
+        <img src='http://papers.co/wallpaper/papers.co-ha79-wallpaper-che-guevara-face-29-wallpaper.jpg'>
+      </div>
+    </div>
+    <div class='info-container'>
+      <div class='information'>
+        <div class='summary'>
+          <h2><a id='tribute-link' target='_blank' href='https://www.totallytimelines.com/che-guevara-1928-1967/'>Tribute</a></h2>
+          <h1 id='title'>Che Guevara</h1>
+          <div id='tribute-info'>Loading...</div>
+          <img id='special-img' src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/CheHigh.jpg/468px-CheHigh.jpg'>
+        </div>
+      </div>
+    </div>
+  <script src="tribute.js"></script>
+ </body>
+</html>

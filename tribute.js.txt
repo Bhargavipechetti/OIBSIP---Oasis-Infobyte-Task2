@@ -1,0 +1,208 @@
+let facts = [
+  {
+    date: '1928 (14th June)',
+    fact: 'Ernesto Guevara was born in Rosario, Argentina. His parents, Ernesto Guevara Lynch and Celia de la Serna y Llosa were a fairly wealthy middle class couple.'
+  },
+  {
+    date: '1948',
+    fact: 'Attended Buenos Aires University where he studied medicine'
+  },
+  {
+    date: '1950 (Summer)',
+    fact: 'Made a 4,500km tour of rural Argentina'
+  },
+  {
+    date: '1951 (January – July)',
+    fact: 'Took a year out from study and together with Alberto Granado made an 8,000km tour of much of South America. He was struck by the poverty and poor working conditions that he saw.'
+  },
+  {
+    date: '1953 (March)',
+    fact: 'Completed his university education and passed his medical degree'
+  },
+  {
+    date: '1953 (July)',
+    fact: 'Set off on another travelling tour of South and Central America taking in Bolivia, Peru, Ecuador, Panama, Costa Rica, Nicaragua, Honduras and El Salvador'
+  },
+  {
+    date: '1953 (December)',
+    fact: 'Met survivors of the Moncada attack in Costa Rica'
+  },
+  {
+    date: '1953 (December 24th)',
+    fact: 'Arrived in Guatemala where the President, Jacobo Árbenz Guzmán, who had been democratically elected, was trying to reduce poverty by redistributing land.'
+  },
+  {
+    date: '1954',
+    fact: 'Decided to settle in Guatemala but was unable to find work as a Doctor so he had to take a variety of jobs to earn money. He was becoming increasingly convinced that Capitalism was responsible for the extreme poverty of South and Central America and became interested in the theories of Karl Marx.'
+  },
+  {
+    date: '1954 (late Spring)',
+    fact: 'Became increasingly involved in revolutionary activities in Guatemala.'
+  },
+  {
+    date: '1954 (June)',
+    fact: 'American forces invaded Guatemala and President Arbenz was forced to resign'
+  },
+  {
+    date: '1954 (September)',
+    fact: 'The overthrow of Arbenz by the US government convinced Guevara that America would never be favourable to left wing governments and vowed to attempt to bring about a world-wide revolution that would topple Capitalism.'
+  },
+  {
+    date: '1954 (September)',
+    fact: 'Left Guatemala and went to Mexico'
+  },
+  {
+    date: '1954 (September)',
+    fact: 'Married Hilda Gadea who was pregnant with their child'
+  },
+  {
+    date: '1955 (July)',
+    fact: 'Met Raul and Fidel Castro. Joined their revolutionary movement to overthrow Batista’s government in Cuba.'
+  },
+  {
+    date: '1956 (February)',
+    fact: 'Birth of a daughter, Hilda Beatriz Guevara Gadea, known as Hildita'
+  },
+  {
+    date: '1956 (November 25th)',
+    fact: 'Guevara was one of eighty-two men who left Mexico in the yacht Granma bound for Cuba'
+  },
+  {
+    date: '1956 (December 2nd)',
+    fact: 'Reached Cuba but the group were attacked by Batista’s forces. Guevara and the Castro brothers were among the few survivors of the attack that fled to the Cuban hills.'
+  },
+  {
+    date: '1958 (Summer)',
+    fact: 'Batista sent forces into the Cuban hills to wipe out the rebels. However, the Cuban army were no match for the rebels who knew the hills and used guerilla tactics against the Cubans. Many Cuban soldiers deserted and joined the revolutionary army.'
+  },
+  {
+    date: '1958 (late December)',
+    fact: 'Guevara led a sortie into Santa Clara which successfully overthrew and occupied the city. Batista fled.'
+  },
+  {
+    date: '1959 (January)',
+    fact: 'The rebels entered the Cuban capital, Havana and began setting up a new government'
+  },
+  {
+    date: '1959 (January to June)',
+    fact: 'Guevara and Raul Castro were given the task of purging the army and police of those that remained loyal to Batista. Most of those tried were found guilty and executed. The trials and executions were condemned worldwide.'
+  },
+  {
+    date: '1959 (February)',
+    fact: 'Became a Cuban citizen'
+  },
+  {
+    date: '1959 (May)',
+    fact: 'Divorced Hilda Gadea'
+  },
+  {
+    date: '1959 (June 2nd)',
+    fact: 'Married Aleida March'
+  },
+  {
+    date: '1959 (October 7th)',
+    fact: 'Appointed head of the Department of Industry of the National Institute of Agrarian Reform (INRA) in Castro’s new government'
+  },
+  {
+    date: '1959 (November 26th)',
+    fact: 'Appointed President of the National Bank of Cuba'
+  },
+  {
+    date: '1960',
+    fact: 'Completed his first book ‘Guerrilla Warfare’'
+  },
+  {
+    date: '1960 (July 26th)',
+    fact: 'Spoke at the First Latin America Youth Congress where he declared that the Cuban revolution was a Marxist Revolution'
+  },
+  {
+    date: '1960 (October)',
+    fact: 'Wrote a history of the Cuban Revolution entitled ‘Notes for the studies about Cuba’s revolution’'
+  },
+  {
+    date: '1960 (October 21st)',
+    fact: 'Left Cuba to make a tour of other socialist countries including, China, Russia and Czechoslovakia'
+  },
+  {
+    date: '1960 (November 24th)',
+    fact: 'Birth of a daughter, Aleida Guevara'
+  },
+  {
+    date: '1961 (February)',
+    fact: 'Gave up his position as President of the Cuban Bank and became Minister for Industry'
+  },
+  {
+    date: '1961 (April)',
+    fact: 'Wrote ‘Cuba exceptional case or avant-garde in struggle against imperialism’'
+  },
+  {
+    date: '1962',
+    fact: 'Guevara continued to align Cuba with the Soviet Union a move which led to the Cuban Missile Crisis in October.'
+  },
+  {
+    date: '1963 (June)',
+    fact: 'Sent a revolutionary group to Argentina'
+  },
+  {
+    date: '1963 (Summer)',
+    fact: 'Wrote ‘Revolutionary war passages’'
+  },
+  {
+    date: '1963 (December)',
+    fact: 'Was a speaker at the United Nations Assembly where he spoke about the link between armed revolution and true socialism.'
+  },
+  {
+    date: '1964',
+    fact: 'He spent much time travelling around the world speaking about socialism and armed revolution.'
+  },
+  {
+    date: '1965 (Spring)',
+    fact: 'Returned to Cuba where he resigned from government stating that he believed that his true calling was as a revolutionary and determined to help bring about revolutions in other countries.'
+  },
+  {
+    date: '1965 (Summer)',
+    fact: 'Left Cuba for Africa where he visited a number of countries including the Congo and Zaire where he hoped to bring about a Communist revolution.'
+  },
+  {
+    date: '1965 (Late)',
+    fact: 'Guevara was considered a dangerous revolutionary and Mike Hoare was given the task of tracking him down and arresting him.'
+  },
+  {
+    date: '1966 (March)',
+    fact: 'Returned to Cuba to avoid being caught in Africa'
+  },
+  {
+    date: '1966 (Late March onwards)',
+    fact: 'Left Cuba and returned to South America travelling through Argentina, Uruguay, Paraguay, Brazil and finally Bolivia'
+  },
+  {
+    date: '1966 (November)',
+    fact: 'Joined a Bolivian revolutionary group'
+  },
+  {
+    date: '1967 (March)',
+    fact: 'Led a successful attack on the Bolivian army'
+  },
+  {
+    date: '1967 (August)',
+    fact: 'The Bolivian government managed to destroy a number of revolutionary groups. Guevara survived.'
+  },
+  {
+    date: '1967 (October 8th)',
+    fact: 'Bolivian forces attacked the remaining rebels and Guevara was injured and taken prisoner'
+  },
+  {
+    date: '1967 (October 9th)',
+    fact: 'Che Guevara was executed. He was shot a total of nine times before he died.'
+  }
+];
+let e = document.getElementById('tribute-info');
+let i = 0;
+function changeFacts(){
+  let fact = facts[i];
+  e.innerHTML = '<h3 class="fact">'+fact.date+'</h3>'+
+                '<p class="fact">'+fact.fact+'</p>';
+  i = (i+1)%facts.length;
+}
+
+setInterval(changeFacts,7000);
